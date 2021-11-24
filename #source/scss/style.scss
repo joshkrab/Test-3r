@@ -73,7 +73,7 @@ body {
 		}
 
 		@media (max-width: $md2+px) {
-			max-width: 900px;
+			max-width: 950px;
 			padding: 0px 15px;
 		}
 
@@ -214,10 +214,14 @@ body {
 			font-size: 50px;
 			margin: 0px 0px 20px 0px;
 		}
-		@media (max-width: $md3+px) {
+
+		@media (max-width: $md2+px) {
 			font-size: 42px;
 			line-height: 52px;
 			text-align: center;
+		}
+
+		@media (max-width: $md3+px) {
 			margin: 0px 0px 130px 0px;
 		}
 
@@ -391,6 +395,7 @@ body {
 	z-index: 7;
 
 	&__row {
+		width: 100%;
 		@include flexbox();
 		justify-content: space-between;
 		align-items: center;
@@ -437,6 +442,7 @@ body {
 		@media (max-width: $md3+px) {
 			display: none;
 		}
+
 		@include flexbox();
 		padding: 23px 0px;
 		align-items: center;
@@ -458,22 +464,25 @@ body {
 			top: 40%;
 			right: -15px;
 			@media (max-width: 1300px) {
-				right: -10px;
+				right: -12px;
 				top: 50%;
 			}
+
 			@media (max-width: $md2+px) {
-				right: 0;
-				bottom: 0;
+				right: -11px;
+				top: 50%;
 			}
 		}
 		a {
 			font-family: Heebo;
 			font-size: 18px;
 			line-height: 18px;
+
 			@media (max-width: 1300px) {
 				font-size: 14px;
 				line-height: 14px;
 			}
+
 			color: #232323;
 			padding: 0;
 			margin: 0;
@@ -496,9 +505,11 @@ body {
 			font-weight: 500;
 			border: 1px solid #1976d2;
 			padding: 13px 47px;
+
 			@media (max-width: 1300px) {
 				padding: 13px 20px;
 			}
+
 			letter-spacing: 0.08em;
 			font-size: 14px;
 			line-height: 14px;
