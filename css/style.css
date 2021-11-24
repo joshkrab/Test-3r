@@ -1553,6 +1553,11 @@ body.ie .ibg img {
 		min-height: auto;
 	}
 }
+@media (max-width: 991.98px) {
+	.answers {
+		padding: 4% 0%;
+	}
+}
 @media (max-width: 768.98px) {
 	.answers {
 		padding: 4% 0;
@@ -1982,7 +1987,7 @@ body.ie .ibg img {
 .agents__line {
 	width: 2px;
 	height: 60px;
-	background-color: #b8b5b5;
+	background-color: #e0e0e0;
 	margin: 0px 0px 40px 0px;
 }
 @media (max-width: 1300px) {
