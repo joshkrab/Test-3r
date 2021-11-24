@@ -1773,7 +1773,7 @@ body.ie .ibg img {
 }
 @media (max-width: 376px) {
 	.answers-item:nth-child(2) {
-		margin: 0px 0px 20px 0px;
+		margin: 0px 25px 20px 0px;
 	}
 }
 @media (max-width: 479.98px) {

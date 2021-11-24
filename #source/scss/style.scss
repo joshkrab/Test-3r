@@ -777,7 +777,7 @@ body {
 	&:nth-child(2) {
 		// margin: 0px 0px 20px 16px;
 		@media (max-width: 376px) {
-			margin: 0px 0px 20px 0px;
+			margin: 0px 25px 20px 0px;
 		}
 		@media (max-width: $md4+px) {
 			.answers-item__body {
