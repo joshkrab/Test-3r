@@ -360,6 +360,7 @@ body {
 
 	&__logo {
 		position: absolute;
+		overflow: hidden;
 		top: 18px;
 		left: -120px;
 		@media (max-width: 1300px) {
@@ -692,9 +693,9 @@ body {
 				padding: 0;
 			}
 
-			@media (max-width: $md4+px) {
+			@media (max-width: 376px) {
 				align-items: stretch;
-				justify-content: start;
+				justify-content: center;
 			}
 		}
 	}
@@ -736,6 +737,10 @@ body {
 			line-height: 22px;
 			margin: 0px 0px 40px 0px;
 		}
+
+		@media (max-width: 374px) {
+			margin: 0px 0px 20px 0px;
+		}
 	}
 }
 
@@ -746,8 +751,8 @@ body {
 .answers-item {
 	&:nth-child(1) {
 		// margin: 0px 0px 20px 50px;
-		@media (max-width: 374px) {
-			margin: 0px 0px 20px 40px;
+		@media (max-width: 376px) {
+			margin: 0px 0px 20px 30px;
 		}
 
 		@media (max-width: $md4+px) {
@@ -759,8 +764,8 @@ body {
 
 	&:nth-child(3) {
 		// margin: 0px 0px 20px 50px;
-		@media (max-width: 374px) {
-			margin: 0px 0px 20px 40px;
+		@media (max-width: 376px) {
+			margin: 0px 0px 20px 30px;
 		}
 		@media (max-width: $md4+px) {
 			.answers-item__body {
@@ -771,8 +776,8 @@ body {
 
 	&:nth-child(2) {
 		// margin: 0px 0px 20px 16px;
-		@media (max-width: 374px) {
-			margin: 0px 0px 20px 8px;
+		@media (max-width: 376px) {
+			margin: 0px 0px 20px 0px;
 		}
 		@media (max-width: $md4+px) {
 			.answers-item__body {
@@ -782,7 +787,7 @@ body {
 			.answers-item__circle {
 				@media (max-width: 1300px) {
 					top: 60px;
-					left: 83%;
+					left: 80%;
 				}
 			}
 		}
@@ -798,6 +803,10 @@ body {
 		margin: 2%;
 	}
 
+	@media (max-width: 376px) {
+		margin: 0px 0px 0px 50px;
+	}
+
 	&__body {
 		padding: 0 46px 0 86px;
 		width: 372px;
@@ -809,7 +818,7 @@ body {
 		}
 
 		@media (max-width: 374px) {
-			width: 270px;
+			width: 260px;
 			height: 190px;
 		}
 
@@ -906,7 +915,7 @@ body {
 	}
 
 	@media (max-width: $md4+px) {
-		padding: 0px 0px 0px 0px;
+		padding: 0px 0px 50px 0px;
 		background-color: #f3efef;
 	}
 

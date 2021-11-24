@@ -1287,6 +1287,7 @@ body.ie .ibg img {
 }
 .main-title__logo {
 	position: absolute;
+	overflow: hidden;
 	top: 18px;
 	left: -120px;
 }
@@ -1685,14 +1686,14 @@ body.ie .ibg img {
 		padding: 0;
 	}
 }
-@media (max-width: 479.98px) {
+@media (max-width: 376px) {
 	.answers__row:nth-child(2) {
 		-webkit-box-align: stretch;
 		    -ms-flex-align: stretch;
 		        align-items: stretch;
-		-webkit-box-pack: start;
-		    -ms-flex-pack: start;
-		        justify-content: start;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 }
 .answers__title {
@@ -1737,6 +1738,11 @@ body.ie .ibg img {
 		margin: 0px 0px 40px 0px;
 	}
 }
+@media (max-width: 374px) {
+	.answers__text {
+		margin: 0px 0px 20px 0px;
+	}
+}
 
 .ans-btn {
 	margin: 0px 0px 0px 0px;
@@ -1745,9 +1751,9 @@ body.ie .ibg img {
 .answers-item {
 	position: relative;
 }
-@media (max-width: 374px) {
+@media (max-width: 376px) {
 	.answers-item:nth-child(1) {
-		margin: 0px 0px 20px 40px;
+		margin: 0px 0px 20px 30px;
 	}
 }
 @media (max-width: 479.98px) {
@@ -1755,9 +1761,9 @@ body.ie .ibg img {
 		padding: 0 50px 0 66px;
 	}
 }
-@media (max-width: 374px) {
+@media (max-width: 376px) {
 	.answers-item:nth-child(3) {
-		margin: 0px 0px 20px 40px;
+		margin: 0px 0px 20px 30px;
 	}
 }
 @media (max-width: 479.98px) {
@@ -1765,9 +1771,9 @@ body.ie .ibg img {
 		padding: 0 50px 0 66px;
 	}
 }
-@media (max-width: 374px) {
+@media (max-width: 376px) {
 	.answers-item:nth-child(2) {
-		margin: 0px 0px 20px 8px;
+		margin: 0px 0px 20px 0px;
 	}
 }
 @media (max-width: 479.98px) {
@@ -1778,7 +1784,7 @@ body.ie .ibg img {
 @media (max-width: 479.98px) and (max-width: 1300px) {
 	.answers-item:nth-child(2) .answers-item__circle {
 		top: 60px;
-		left: 83%;
+		left: 80%;
 	}
 }
 @media (max-width: 1300px) {
@@ -1789,6 +1795,11 @@ body.ie .ibg img {
 @media (max-width: 768.98px) {
 	.answers-item {
 		margin: 2%;
+	}
+}
+@media (max-width: 376px) {
+	.answers-item {
+		margin: 0px 0px 0px 50px;
 	}
 }
 .answers-item__body {
@@ -1823,7 +1834,7 @@ body.ie .ibg img {
 }
 @media (max-width: 374px) {
 	.answers-item__body {
-		width: 270px;
+		width: 260px;
 		height: 190px;
 	}
 }
@@ -1916,7 +1927,7 @@ body.ie .ibg img {
 }
 @media (max-width: 479.98px) {
 	.agents {
-		padding: 0px 0px 0px 0px;
+		padding: 0px 0px 50px 0px;
 		background-color: #f3efef;
 	}
 }
